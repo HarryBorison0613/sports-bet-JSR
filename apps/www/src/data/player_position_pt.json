@@ -1,0 +1,68 @@
+{
+  "futebol": [
+    {
+      "engPosition": "defender",
+      "ptPosition": "defensor"
+    },
+    {
+      "engPosition": "midfielder",
+      "ptPosition": "meia"
+    },
+    {
+      "engPosition": "forward",
+      "ptPosition": "atacante"
+    },
+    {
+      "engPosition": "goalkeeper",
+      "ptPosition": "goleiro"
+    }
+  ],
+  "basquete": [
+    {
+      "engPosition": "g",
+      "ptPosition": "guarda"
+    },
+    {
+      "engPosition": "f",
+      "ptPosition": "avançar"
+    },
+    {
+      "engPosition": "c",
+      "ptPosition": "pivô"
+    },
+    {
+      "engPosition": "c-f",
+      "ptPosition": "centroavante"
+    },
+    {
+      "engPosition": "g-f",
+      "ptPosition": "ala"
+    }
+  ],
+  "hockey-no-gelo": [
+    {
+      "engPosition": "g",
+      "ptPosition": "goleiro"
+    },
+    {
+      "engPosition": "d",
+      "ptPosition": "defensor"
+    },
+    {
+      "engPosition": "c",
+      "ptPosition": "pivô"
+    },
+    {
+      "engPosition": "lw",
+      "ptPosition": "ponto esquerdo"
+    },
+    {
+      "engPosition": "rw",
+      "ptPosition": "ala direito"
+    },
+    {
+      "engPosition": "f",
+      "ptPosition": "atacante"
+    }
+  ]
+}

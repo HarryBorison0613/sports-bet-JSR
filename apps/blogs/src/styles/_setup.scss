@@ -1,0 +1,42 @@
+/** Colors **/
+
+// Set our primary color
+$primary-color: #04315E;
+// Set our secondary color
+$secondary-color: #044F90;
+// Set our tertiary color
+$tertiary-color: #930000;
+// Set our quaternary color
+$quartenary-color: #5AE7ED;
+
+//Set our body color
+$body-font-color: #343A40;
+
+$danger-color: #E40000;
+
+// Set the default link color
+$link-color: $primary-color;
+// Set the default hover color
+$link-hover-color: $body-font-color;
+
+// Amend theme colors mapping
+$theme-colors: (
+    'primary': $primary-color,
+    'secondary': $secondary-color,
+    'tertiary': $tertiary-color,
+    'white': #FFFFFF,
+    'red': #D0021B,
+    'grey': $body-font-color,
+);
+
+// Adjust the lighest grey to something we tend to use more often in our projects, values 100-900 Bootstrap standards
+$gray-100: #F8F8F8;
+$gray-150: #DFDFDF;
+$gray-200: #979797;
+$gray-300: #939393;
+$gray-400: #666666;
+$gray-500: #D8D8D8;
+$gray-600: #E3E3E5;
+$gray-700: #EEEEEE;
+$gray-800: #737680;
+$gray-900: #737280;

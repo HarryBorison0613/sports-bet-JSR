@@ -1,0 +1,18 @@
+# Googlebot
+User-agent: Googlebot
+Allow: /
+
+# Googlebot-Image
+User-agent: Googlebot-Image
+Allow: /
+
+# *
+User-agent: *
+Disallow: /
+
+# Host
+Host: https://www.bets.com.br
+
+# Sitemaps
+Sitemap: https://www.bets.com.br/sitemap.xml
+Sitemap: https://www.bets.com.br/artigos/sitemap.xml

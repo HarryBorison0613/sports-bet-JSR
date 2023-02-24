@@ -1,0 +1,103 @@
+.post_body {
+  h2,
+  h3 {
+    @apply mt-12 mb-4 leading-snug;
+  }
+
+  h2 {
+    @apply text-3xl;
+  }
+
+  h3 {
+    @apply text-2xl;
+  }
+
+  p {
+    @apply my-6 text-lg text-gray-900 leading-relaxed;
+
+    code {
+      @apply text-sm bg-green-300 p-1 rounded-sm;
+      font-family: 'Fira Code', monospace !important;
+    }
+  }
+
+  a {
+    @apply text-purple-600 hover:underline;
+  }
+
+  blockquote {
+    @apply border-l-4 border-green-500 italic my-8 pl-4 leading-relaxed md:leading-loose text-xl md:pl-8;
+  }
+
+  strong {
+    @apply text-gray-700;
+  }
+
+  ol {
+    @apply list-decimal;
+  }
+
+  ul li::marker {
+    content: "⚡";
+  }
+
+  li {
+    @apply my-2 ml-5 pl-2 text-lg;
+  }
+
+  hr {
+    @apply border;
+  }
+
+  figcaption {
+    @apply text-center text-xs italic;
+  }
+
+  pre {
+    @apply rounded-sm my-4;
+    font-family: 'Fira Code', monospace !important;
+    /* width */
+    &::-webkit-scrollbar {
+      width: 3px;
+      height: 10px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      @apply bg-gray-200
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      @apply bg-gray-400
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      @apply bg-gray-300
+    }
+  }
+}
+
+.image_container {
+  @apply w-full;
+  > div {
+    position: unset !important;
+  }
+
+  img {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+  }
+}
+
+.iframe_wrapper {
+  @apply relative h-0 p-6;
+  padding-bottom: 56.25%; /* 16:9 */
+
+  iframe {
+    @apply absolute top-0 left-0 w-full h-full;
+  }
+}

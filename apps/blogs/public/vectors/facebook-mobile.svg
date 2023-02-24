@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 197 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>facebook</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD---Single-post" transform="translate(-296.000000, -540.000000)">
+            <g id="Share-Icons" transform="translate(79.000000, 540.000000)">
+                <g id="facebook" transform="translate(217.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#1877F2" x="0" y="0" width="197" height="40"></rect>
+                    <path d="M105.951601,21.7475586 L106.780773,16.3592188 L101.593571,16.3592188 L101.593571,12.8625195 C101.593571,11.3883594 102.318156,9.95146484 104.641529,9.95146484 L107,9.95146484 L107,5.36410156 C107,5.36410156 104.859581,5 102.813342,5 C98.5410867,5 95.7488646,7.58058594 95.7488646,12.2524414 L95.7488646,16.3592188 L91,16.3592188 L91,21.7475586 L95.7488646,21.7475586 L95.7488646,34.7735352 C96.7010832,34.9224805 97.6770529,35 98.6712474,35 C99.6654419,35 100.641412,34.9224805 101.593571,34.7735352 L101.593571,21.7475586 L105.951601,21.7475586 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

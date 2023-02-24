@@ -1,0 +1,16 @@
+.title,
+.title-loading {
+  @apply text-xs text-slate-500 mb-2 block;
+}
+
+.title-loading {
+  @apply h-[10px] bg-slate-200 w-2/12 rounded-md;
+}
+
+.list-loading {
+  @apply grid gap-4;
+}
+
+.item-loading {
+  @apply h-[12px] bg-slate-200 rounded-md;
+}

@@ -1,0 +1,285 @@
+{
+  "league": {
+    "id": "sr:competition:325",
+    "name": "Brasileirão Série A",
+    "gender": "men",
+    "league_id": "325",
+    "slug": "brasileirão-série-a",
+    "country_info": {
+      "id": 76,
+      "continent": "América do Sul",
+      "name": "Brasil",
+      "alpha2": "br",
+      "alpha3": "bra",
+      "slug": "brasil",
+      "icon": "/logos/countries/br.svg"
+    },
+    "icon": "/logos/leagues/américa do sul_brasil_brasileirão série a.png"
+  },
+  "sport": "futebol",
+  "seasons": [
+    {
+      "start_date": "2022-04-09",
+      "end_date": "2022-11-14",
+      "year": "2022",
+      "id": "sr:season:90975",
+      "competition_id": "sr:competition:325",
+      "name": "Brasileiro Série A 2022",
+      "season_id": "90975",
+      "league_id": "325",
+      "slug": "brasileiro-série-a-2022",
+      "icon": "/logos/leagues/américa do sul_brasil_brasileiro série a 2022.png",
+      "start_date_formatted": "sábado, 09 abr 2022",
+      "end_date_formatted": "segunda, 14 nov 2022",
+      "season_progress": 60
+    },
+    {
+      "start_date": "2021-05-28",
+      "end_date": "2021-12-10",
+      "year": "2021",
+      "id": "sr:season:82604",
+      "competition_id": "sr:competition:325",
+      "name": "Brasileirão Série A 2021",
+      "season_id": "82604",
+      "league_id": "325",
+      "slug": "brasileirão-série-a-2021",
+      "icon": "/logos/leagues/américa do sul_brasil_brasileirão série a 2021.png",
+      "start_date_formatted": "sexta, 28 mai 2021",
+      "end_date_formatted": "sexta, 10 dez 2021",
+      "season_progress": 100
+    },
+    {
+      "start_date": "2020-05-01",
+      "end_date": "2021-02-28",
+      "year": "20/21",
+      "id": "sr:season:76415",
+      "competition_id": "sr:competition:325",
+      "name": "Brasileirão Série A 20/21",
+      "season_id": "76415",
+      "league_id": "325",
+      "slug": "brasileirão-série-a-20-21",
+      "icon": "/logos/leagues/américa do sul_brasil_brasileirão série a 20 21.png",
+      "start_date_formatted": "sexta, 01 mai 2020",
+      "end_date_formatted": "domingo, 28 fev 2021",
+      "season_progress": 100
+    }
+  ],
+  "current_season": {
+    "start_date": "2022-04-09",
+    "end_date": "2022-11-14",
+    "year": "2022",
+    "id": "sr:season:90975",
+    "competition_id": "sr:competition:325",
+    "name": "Brasileiro Série A 2022",
+    "season_id": "90975",
+    "league_id": "325",
+    "slug": "brasileiro-série-a-2022",
+    "icon": "/logos/leagues/américa do sul_brasil_brasileiro série a 2022.png",
+    "start_date_formatted": "sábado, 09 abr 2022",
+    "end_date_formatted": "segunda, 14 nov 2022",
+    "season_progress": 60
+  },
+  "current_season_teams": [
+    {
+      "short_name": "Corinthians",
+      "abbreviation": "COR",
+      "name": "Corinthians",
+      "id": "1957",
+      "team_id": "1957",
+      "icon": "/logos/teams/corinthians.png",
+      "slug": "corinthians",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Botafogo FR",
+      "abbreviation": "BOT",
+      "name": "Botafogo FR",
+      "id": "1958",
+      "team_id": "1958",
+      "icon": "/logos/teams/botafogo fr.png",
+      "slug": "botafogo-fr",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Goiás EC",
+      "abbreviation": "GGO",
+      "name": "Goiás EC GO",
+      "id": "1960",
+      "team_id": "1960",
+      "icon": "/logos/teams/goiás ec go.png",
+      "slug": "goiás-ec",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Fluminense FC",
+      "abbreviation": "FLU",
+      "name": "Fluminense RJ",
+      "id": "1961",
+      "team_id": "1961",
+      "icon": "/logos/teams/fluminense rj.png",
+      "slug": "fluminense-fc",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "SE Palmeiras",
+      "abbreviation": "PAL",
+      "name": "SE Palmeiras SP",
+      "id": "1963",
+      "team_id": "1963",
+      "icon": "/logos/teams/se palmeiras sp.png",
+      "slug": "se-palmeiras",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "SC Internacional",
+      "abbreviation": "INT",
+      "name": "Internacional RS",
+      "id": "1966",
+      "team_id": "1966",
+      "icon": "/logos/teams/internacional rs.png",
+      "slug": "sc-internacional",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Atlético Paranaense",
+      "abbreviation": "PAR",
+      "name": "Atlético Paranaense",
+      "id": "1967",
+      "team_id": "1967",
+      "icon": "/logos/teams/atlético paranaense.png",
+      "slug": "atlético-paranaense",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Santos FC",
+      "abbreviation": "SAN",
+      "name": "Santos FC SP",
+      "id": "1968",
+      "team_id": "1968",
+      "icon": "/logos/teams/santos fc sp.png",
+      "slug": "santos-fc",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "América FC",
+      "abbreviation": "AME",
+      "name": "América FC MG",
+      "id": "1973",
+      "team_id": "1973",
+      "icon": "/logos/teams/américa fc mg.png",
+      "slug": "américa-fc",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Atlético Mineiro",
+      "abbreviation": "ATL",
+      "name": "Atlético Mineiro",
+      "id": "1977",
+      "team_id": "1977",
+      "icon": "/logos/teams/atlético mineiro.png",
+      "slug": "atlético-mineiro",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "EC Juventude",
+      "abbreviation": "JUV",
+      "name": "EC Juventude RS",
+      "id": "1980",
+      "team_id": "1980",
+      "icon": "/logos/teams/ec juventude rs.png",
+      "slug": "ec-juventude",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "São Paulo FC",
+      "abbreviation": "SPA",
+      "name": "São Paulo FC SP",
+      "id": "1981",
+      "team_id": "1981",
+      "icon": "/logos/teams/são paulo fc sp.png",
+      "slug": "são-paulo-fc",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Coritiba FC",
+      "abbreviation": "COR",
+      "name": "Coritiba FC PR",
+      "id": "1982",
+      "team_id": "1982",
+      "icon": "/logos/teams/coritiba fc pr.png",
+      "slug": "coritiba-fc",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "RB Bragantino",
+      "abbreviation": "RBB",
+      "name": "Red Bull Bragantino SP",
+      "id": "1999",
+      "team_id": "1999",
+      "icon": "/logos/teams/red bull bragantino sp.png",
+      "slug": "rb-bragantino",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Ceará SC",
+      "abbreviation": "CEA",
+      "name": "Ceará SC CE",
+      "id": "2001",
+      "team_id": "2001",
+      "icon": "/logos/teams/ceará sc ce.png",
+      "slug": "ceará-sc",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Fortaleza EC",
+      "abbreviation": "FOR",
+      "name": "Fortaleza-CE",
+      "id": "2020",
+      "team_id": "2020",
+      "icon": "/logos/teams/fortaleza-ce.png",
+      "slug": "fortaleza-ec",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "CR Flamengo",
+      "abbreviation": "FLA",
+      "name": "CR Flamengo RJ",
+      "id": "5981",
+      "team_id": "5981",
+      "icon": "/logos/teams/cr flamengo rj.png",
+      "slug": "cr-flamengo",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "AC Goianiense",
+      "abbreviation": "ATL",
+      "name": "Atlético Goianiense",
+      "id": "7314",
+      "team_id": "7314",
+      "icon": "/logos/teams/atlético goianiense.png",
+      "slug": "ac-goianiense",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Avaí FC",
+      "abbreviation": "AVA",
+      "name": "Avaí FC SC",
+      "id": "7315",
+      "team_id": "7315",
+      "icon": "/logos/teams/avaí fc sc.png",
+      "slug": "avaí-fc",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Cuiaba EC",
+      "abbreviation": "CUI",
+      "name": "Cuiaba Esporte Clube MT",
+      "id": "49202",
+      "team_id": "49202",
+      "icon": "/logos/teams/cuiaba esporte clube mt.png",
+      "slug": "cuiaba-ec",
+      "form": ["-", "-", "-", "-", "-"]
+    }
+  ],
+  "summary_text": "Brasileirão Série A, também conhecida como, Brasileiro Série A 2022, é a liga de futebol profissional no(a) Brasil para men. Existem ao todo 20 times que competem pelo título todos os anos entre 09/04/2022 to 14/11/2022"
+}

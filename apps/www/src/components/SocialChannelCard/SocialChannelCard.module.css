@@ -1,0 +1,15 @@
+.base {
+  @apply px-6 py-4 flex items-center gap-2 border-b;
+}
+
+.base:hover {
+  @apply bg-slate-100 text-primary-300;
+}
+
+.label {
+  @apply flex-1;
+}
+
+.icon {
+  @apply text-xl;
+}

@@ -1,0 +1,5 @@
+.base {
+  @apply p-4 lg:px-5 first-of-type:pt-6 last-of-type:pb-6;
+
+  /* @apply border-b last-of-type:border-0; */
+}

@@ -1,0 +1,27 @@
+.base {
+  @apply bg-white rounded-none lg:rounded-md;
+
+  @apply border w-full;
+
+  @apply lg:shadow-lg lg:shadow-slate-300 pointer-events-auto;
+}
+
+/* .base:last-of-type {
+  @apply sticky top-[72px];
+} */
+
+.header {
+  @apply py-3 px-6 bg-gray-100 lg:rounded-t-md border-b flex items-center gap-2;
+}
+
+.title {
+  @apply font-bold text-sm text-primary-500;
+}
+
+.view-more {
+  @apply text-xs font-medium p-3 text-center hover:bg-blue-100 hover:font-semibold hover:text-primary-500 cursor-pointer;
+
+  @apply bg-gray-100 rounded-b-md;
+
+  @apply border-t;
+}

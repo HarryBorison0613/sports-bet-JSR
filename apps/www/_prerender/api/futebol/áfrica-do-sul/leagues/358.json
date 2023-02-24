@@ -1,0 +1,245 @@
+{
+  "league": {
+    "id": "sr:competition:358",
+    "name": "Liga Principal de Futebol",
+    "gender": "men",
+    "league_id": "358",
+    "slug": "liga-principal-de-futebol",
+    "country_info": {
+      "id": 710,
+      "continent": "África",
+      "name": "África do Sul",
+      "alpha2": "za",
+      "alpha3": "zaf",
+      "slug": "áfrica-do-sul",
+      "icon": "/logos/countries/za.svg"
+    },
+    "icon": "/logos/leagues/áfrica_áfrica do sul_liga principal de futebol.png"
+  },
+  "sport": "futebol",
+  "seasons": [
+    {
+      "start_date": "2022-08-05",
+      "end_date": "2023-06-30",
+      "year": "22/23",
+      "id": "sr:season:95969",
+      "competition_id": "sr:competition:358",
+      "name": "Liga Principal de Futebol 22/23",
+      "season_id": "95969",
+      "league_id": "358",
+      "slug": "liga-principal-de-futebol-22-23",
+      "icon": "/logos/leagues/áfrica_áfrica do sul_liga principal de futebol 22 23.png",
+      "start_date_formatted": "sexta, 05 ago 2022",
+      "end_date_formatted": "sexta, 30 jun 2023",
+      "season_progress": 4
+    },
+    {
+      "start_date": "2021-08-20",
+      "end_date": "2022-07-10",
+      "year": "21/22",
+      "id": "sr:season:86070",
+      "competition_id": "sr:competition:358",
+      "name": "Liga Principal de Futebol 21/22",
+      "season_id": "86070",
+      "league_id": "358",
+      "slug": "liga-principal-de-futebol-21-22",
+      "icon": "/logos/leagues/áfrica_áfrica do sul_liga principal de futebol 21 22.png",
+      "start_date_formatted": "sexta, 20 ago 2021",
+      "end_date_formatted": "domingo, 10 jul 2022",
+      "season_progress": 100
+    },
+    {
+      "start_date": "2020-10-23",
+      "end_date": "2021-07-15",
+      "year": "20/21",
+      "id": "sr:season:79249",
+      "competition_id": "sr:competition:358",
+      "name": "Liga Principal de Futebol 20/21",
+      "season_id": "79249",
+      "league_id": "358",
+      "slug": "liga-principal-de-futebol-20-21",
+      "icon": "/logos/leagues/áfrica_áfrica do sul_liga principal de futebol 20 21.png",
+      "start_date_formatted": "sexta, 23 out 2020",
+      "end_date_formatted": "quinta, 15 jul 2021",
+      "season_progress": 100
+    }
+  ],
+  "current_season": {
+    "start_date": "2022-08-05",
+    "end_date": "2023-06-30",
+    "year": "22/23",
+    "id": "sr:season:95969",
+    "competition_id": "sr:competition:358",
+    "name": "Liga Principal de Futebol 22/23",
+    "season_id": "95969",
+    "league_id": "358",
+    "slug": "liga-principal-de-futebol-22-23",
+    "icon": "/logos/leagues/áfrica_áfrica do sul_liga principal de futebol 22 23.png",
+    "start_date_formatted": "sexta, 05 ago 2022",
+    "end_date_formatted": "sexta, 30 jun 2023",
+    "season_progress": 4
+  },
+  "current_season_teams": [
+    {
+      "short_name": "AmaZulu FC",
+      "abbreviation": "AMA",
+      "name": "AmaZulu FC",
+      "id": "7655",
+      "team_id": "7655",
+      "icon": "/logos/teams/amazulu fc.png",
+      "slug": "amazulu-fc",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Royal AM FC",
+      "abbreviation": "ROY",
+      "name": "Royal AM FC",
+      "id": "7659",
+      "team_id": "7659",
+      "icon": "/logos/teams/royal am fc.png",
+      "slug": "royal-am-fc",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Kaizer Chiefs",
+      "abbreviation": "KAC",
+      "name": "Kaizer Chiefs",
+      "id": "7663",
+      "team_id": "7663",
+      "icon": "/logos/teams/kaizer chiefs.png",
+      "slug": "kaizer-chiefs",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Lamontville Golden Arrows",
+      "abbreviation": "GAR",
+      "name": "Lamontville Golden Arrows",
+      "id": "7664",
+      "team_id": "7664",
+      "icon": "/logos/teams/lamontville golden arrows.png",
+      "slug": "lamontville-golden-arrows",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Mamelodi Sundowns",
+      "abbreviation": "MAM",
+      "name": "Mamelodi Sundowns",
+      "id": "7665",
+      "team_id": "7665",
+      "icon": "/logos/teams/mamelodi sundowns.png",
+      "slug": "mamelodi-sundowns",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Maritzburg United",
+      "abbreviation": "MU",
+      "name": "Maritzburg United",
+      "id": "7666",
+      "team_id": "7666",
+      "icon": "/logos/teams/maritzburg united.png",
+      "slug": "maritzburg-united",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Swallows FC",
+      "abbreviation": "SWA",
+      "name": "Swallows FC",
+      "id": "7667",
+      "team_id": "7667",
+      "icon": "/logos/teams/swallows fc.png",
+      "slug": "swallows-fc",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Orlando Pirates FC",
+      "abbreviation": "ORL",
+      "name": "Orlando Pirates FC",
+      "id": "7668",
+      "team_id": "7668",
+      "icon": "/logos/teams/orlando pirates fc.png",
+      "slug": "orlando-pirates-fc",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Supersport United",
+      "abbreviation": "SUP",
+      "name": "Supersport United",
+      "id": "7671",
+      "team_id": "7671",
+      "icon": "/logos/teams/supersport united.png",
+      "slug": "supersport-united",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Stellenbosch FC",
+      "abbreviation": "STB",
+      "name": "Stellenbosch FC",
+      "id": "43555",
+      "team_id": "43555",
+      "icon": "/logos/teams/stellenbosch fc.png",
+      "slug": "stellenbosch-fc",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Chippa United FC",
+      "abbreviation": "CHI",
+      "name": "Chippa United FC",
+      "id": "70946",
+      "team_id": "70946",
+      "icon": "/logos/teams/chippa united fc.png",
+      "slug": "chippa-united-fc",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Cidade do Cabo FC",
+      "abbreviation": "CTC",
+      "name": "Cidade do Cabo FC",
+      "id": "276679",
+      "team_id": "276679",
+      "icon": "/logos/teams/cidade do cabo fc.png",
+      "slug": "cidade-do-cabo-fc",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Richards Bay FC",
+      "abbreviation": "RIC",
+      "name": "Richards Bay FC",
+      "id": "367882",
+      "team_id": "367882",
+      "icon": "/logos/teams/richards bay fc.png",
+      "slug": "richards-bay-fc",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Marumo Gallants FC",
+      "abbreviation": "MGL",
+      "name": "Marumo Gallants FC",
+      "id": "367886",
+      "team_id": "367886",
+      "icon": "/logos/teams/marumo gallants fc.png",
+      "slug": "marumo-gallants-fc",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "TS Galaxy FC",
+      "abbreviation": "GAL",
+      "name": "TS Galaxy FC",
+      "id": "475016",
+      "team_id": "475016",
+      "icon": "/logos/teams/ts galaxy fc.png",
+      "slug": "ts-galaxy-fc",
+      "form": ["-", "-", "-", "-", "-"]
+    },
+    {
+      "short_name": "Sekhukhune United",
+      "abbreviation": "SEK",
+      "name": "Sekhukhune United",
+      "id": "760704",
+      "team_id": "760704",
+      "icon": "/logos/teams/sekhukhune united.png",
+      "slug": "sekhukhune-united",
+      "form": ["-", "-", "-", "-", "-"]
+    }
+  ],
+  "summary_text": "Liga Principal de Futebol, também conhecida como, Liga Principal de Futebol 22/23, é a liga de futebol profissional no(a) África do Sul para men. Existem ao todo 16 times que competem pelo título todos os anos entre 05/08/2022 to 30/06/2023"
+}

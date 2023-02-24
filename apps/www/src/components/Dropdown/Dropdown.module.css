@@ -1,0 +1,19 @@
+.menu {
+  @apply relative inline-block text-left;
+}
+
+.menu-button {
+  @apply inline-flex w-full justify-center rounded-md  px-4 py-2 text-sm font-medium;
+
+  @apply border-2;
+
+  @apply cursor-pointer;
+}
+
+.menu-item {
+  @apply flex items-center gap-3 p-3;
+
+  @apply text-sm;
+
+  @apply hover:bg-blue-50 hover:text-primary-500;
+}

@@ -1,0 +1,24 @@
+name = "api-kv-worker"
+compatibility_date = "2022-07-19"
+
+# The entrypoint/path to the file that will be executed.
+main= "./src/index.ts"
+
+minify= true
+
+[[kv_namespaces]]
+  binding = "KV_STORE"
+  id = "daf7d4984ce349e5bae676a7574361df"
+
+# Define top-level environment variables
+# under the `[vars]` block using
+# the `key = "value"` format
+[vars]                
+SPORTS_API_BASE_URL = "https://api.sportradar.us"
+
+[miniflare]
+host = "127.0.0.1"                 # --host
+port = 1337                        # --port
+cf_fetch = false                   # --no-cf-fetch
+watch = true                       # --watch
+live_reload = true                 # --live-reload

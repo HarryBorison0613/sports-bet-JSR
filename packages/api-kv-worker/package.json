@@ -1,0 +1,15 @@
+{
+  "name": "@packages/api-kv-worker",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently 'npm:dev-miniflare' 'npm:watch-script'",
+    "dev-miniflare": "miniflare dist/index.js",
+    "watch-script": "esbuild ./src/index.ts --bundle --outfile=./dist/index.js --format=esm --watch",
+    "build": "esbuild ./src/index.ts --bundle --outfile=./dist/index.js --format=esm --minify"
+  },
+  "dependencies": {
+    "date-fns-tz": "^1.3.7"
+  }
+}

@@ -1,0 +1,67 @@
+.base {
+  @apply grid lg:grid-cols-2;
+}
+
+.base > .item {
+  @apply col-span-1;
+}
+
+.base > .item:first-of-type {
+  @apply lg:col-span-2;
+}
+
+.small {
+  @apply grid-cols-1;
+}
+
+.small > .item:first-of-type {
+  @apply !col-span-1;
+}
+
+.base-loading {
+  @apply animate-pulse;
+}
+
+.item {
+  @apply cursor-pointer hover:bg-slate-100 hover:text-primary-500;
+
+  @apply border-b;
+}
+
+.item {
+  @apply flex items-center gap-2 p-4 py-2 lg:border-r;
+}
+
+.item:first-of-type {
+  @apply grid;
+  @apply p-4;
+}
+
+.item-header {
+  @apply flex-1;
+}
+
+.image {
+  @apply w-[64px] aspect-square rounded-md relative;
+}
+
+.item:first-of-type .image {
+  @apply w-full aspect-video rounded-md relative;
+}
+
+.image-loading {
+  @apply bg-slate-300;
+}
+
+.title {
+  @apply my-1 text-xs font-bold;
+}
+
+.date {
+  @apply text-xs text-slate-500;
+}
+
+.item:first-of-type .title,
+.item:first-of-type .date {
+  @apply text-sm;
+}

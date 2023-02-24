@@ -1,0 +1,39 @@
+.base {
+  @apply flex items-center gap-2 lg:gap-3;
+}
+
+.info {
+  @apply flex-1;
+}
+
+.icon {
+  @apply w-10 lg:w-14 aspect-square relative;
+}
+
+.icon-small {
+  @apply w-8;
+}
+
+.title {
+  @apply lg:text-lg !leading-[1.6]  font-semibold mb-1;
+}
+
+.title-link {
+  @apply text-primary-500 hover:underline cursor-pointer;
+}
+
+.title-small {
+  @apply text-sm;
+}
+
+.description {
+  @apply flex gap-2 items-center text-sm;
+}
+
+.description-icon {
+  @apply w-[18px] aspect-square relative;
+}
+
+.description-text {
+  @apply capitalize truncate;
+}

@@ -1,0 +1,244 @@
+{
+  "futebol": {
+    "leagues": [
+      {
+        "country": "Brasil",
+        "name": "Brasileirão Série A",
+        "id": "325"
+      },
+      {
+        "country": "Inglaterra",
+        "name": "Premier League",
+        "id": "17"
+      },
+      {
+        "country": "Alemanha",
+        "name": "Bundesliga",
+        "id": "35"
+      },
+      {
+        "country": "Espanha",
+        "name": "La Liga",
+        "id": "8"
+      },
+      {
+        "country": "Inglaterra",
+        "name": "Championship",
+        "id": "18"
+      },
+      {
+        "country": "Estados Unidos da América",
+        "name": "Major League Soccer",
+        "id": "242"
+      },
+      {
+        "country": "Itália",
+        "name": "Série A",
+        "id": "23"
+      },
+      {
+        "country": "Argentina",
+        "name": "Primeira Nacional",
+        "id": "703"
+      },
+      {
+        "country": "México",
+        "name": "Liga MX, Abertura",
+        "id": "27464"
+      },
+      {
+        "country": "Brasil",
+        "name": "Brasileirão Série B",
+        "id": "390"
+      },
+      {
+        "country": "Brasil",
+        "name": "Brasileirão Série C",
+        "id": "1281"
+      },
+      {
+        "country": "França",
+        "name": "Ligue 1",
+        "id": "34"
+      },
+      {
+        "country": "Portugal",
+        "name": "Primeira Liga",
+        "id": "238"
+      },
+      {
+        "country": "China",
+        "name": "Super Liga Chinesa",
+        "id": "649"
+      }
+    ]
+  },
+  "basquete": {
+    "leagues": [
+      {
+        "country": "Estados Unidos da América",
+        "name": "NBA",
+        "id": "132"
+      },
+      {
+        "country": "Alemanha",
+        "name": "BBL",
+        "id": "227"
+      },
+      {
+        "country": "Espanha",
+        "name": "Liga ACB",
+        "id": "264"
+      },
+      {
+        "country": "Ilhas Filipinas",
+        "name": "PBA, Taça Comissionário",
+        "id": "1656"
+      },
+      {
+        "country": "Estados Unidos da América",
+        "name": "WNBA",
+        "id": "486"
+      }
+    ]
+  },
+  "tênis": {
+    "leagues": [
+      {
+        "country": "WTA",
+        "name": "WTA Cidade de Pataya, Tailândia Singulares Fem.",
+        "id": "2673"
+      },
+      {
+        "country": "ITF Masculino",
+        "name": "ITF Men Stuttgart-Stammheim, Germany Men Singles",
+        "id": "4393"
+      },
+      {
+        "country": "Taça Hopman",
+        "name": "Taça Hopman",
+        "id": "620"
+      },
+      {
+        "country": "Challenger",
+        "name": "Finais do Torneios ATP Challenger",
+        "id": "990"
+      },
+      {
+        "country": "Taça Davis",
+        "name": "Taça Davis",
+        "id": "2100"
+      },
+      {
+        "country": "ATP",
+        "name": "Wimbledon Singulares Masculinos",
+        "id": "2555"
+      }
+    ]
+  },
+  "futebol-americano": {
+    "leagues": [
+      {
+        "country": "Estados Unidos da América",
+        "name": "NFL",
+        "id": "31"
+      },
+      {
+        "country": "Estados Unidos da América",
+        "name": "NCAA",
+        "id": "850"
+      },
+      {
+        "country": "Canadá",
+        "name": "CFL",
+        "id": "790"
+      },
+      {
+        "country": "Estados Unidos da América",
+        "name": "XFL",
+        "id": "31371"
+      }
+    ]
+  },
+  "hockey-no-gelo": {
+    "leagues": [
+      {
+        "country": "Estados Unidos da América",
+        "name": "NHL",
+        "id": "234"
+      },
+      {
+        "country": "Rússia",
+        "name": "KHL",
+        "id": "268"
+      },
+      {
+        "country": "Canadá",
+        "name": "WHL",
+        "id": "14361"
+      }
+    ]
+  },
+  "beisebol": {
+    "leagues": [
+      {
+        "country": "Estados Unidos da América",
+        "name": "MLB",
+        "id": "109"
+      },
+      {
+        "country": "Internacional",
+        "name": "Torneio Olimpico Masculino",
+        "id": "546"
+      },
+      {
+        "country": "México",
+        "name": "Liga Mexicana",
+        "id": "1030"
+      }
+    ]
+  },
+  "esportes": {
+    "en_Name": "",
+    "api_version": "v2",
+    "leagues": []
+  },
+  "mma": {
+    "en_Name": "",
+    "api_version": "v2",
+
+    "leagues": []
+  },
+  "críquete": {
+    "en_Name": "cricket-t2",
+    "api_version": "",
+    "leagues": [
+      {
+        "country": "",
+        "name": "MINOR LEAGUE"
+      },
+      {
+        "country": "",
+        "name": "INDIAN PREMIER LEAGUE"
+      },
+      {
+        "country": "",
+        "name": "BIG BASH LEAGUE"
+      },
+      {
+        "country": "",
+        "name": "PAKISTAN SUPER LEAGUE"
+      }
+    ]
+  },
+  "rúgbi": {
+    "en_Name": "rugby-league",
+    "api_version": "v3",
+    "leagues": []
+  },
+  "boxe": {
+    "en_Name": "",
+    "api_version": "v2",
+    "leagues": []
+  }
+}

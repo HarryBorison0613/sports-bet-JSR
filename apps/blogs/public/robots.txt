@@ -1,0 +1,12 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /api
+
+# Host
+Host: https://bets.com.br/artigos
+
+# Sitemaps
+Sitemap: https://bets.com.br/artigos/sitemap.xml
+Sitemap: https://bets.com.br/artigos/api/v1/sitemap-posts
+Sitemap: https://bets.com.br/artigos/api/v1/sitemap-tags

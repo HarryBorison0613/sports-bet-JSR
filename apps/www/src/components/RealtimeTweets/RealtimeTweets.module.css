@@ -1,0 +1,23 @@
+.base {
+  @apply p-6 border-b flex gap-4;
+}
+
+.image {
+  @apply !w-[40px] aspect-square rounded-full overflow-hidden bg-gray-100 text-xs relative;
+}
+
+.name {
+  @apply font-bold mb-1;
+}
+
+.text {
+  @apply text-sm mb-2;
+}
+
+.summary {
+  @apply text-sm text-slate-500;
+}
+
+.content {
+  @apply flex-1;
+}

@@ -1,0 +1,33 @@
+.base {
+  @apply block w-screen lg:w-full overflow-x-scroll;
+}
+
+.table {
+  @apply w-full;
+
+  /* Color */
+  @apply bg-white border-gray-200;
+
+  /* Shadow */
+  @apply shadow-lg shadow-slate-200;
+
+  /* Shape */
+  @apply rounded-lg;
+
+  @apply whitespace-nowrap lg:whitespace-normal;
+}
+
+.table tr {
+  border-bottom: var(--border);
+
+  @apply text-xs text-slate-500 border-b;
+}
+
+.table tbody tr {
+  @apply hover:bg-slate-50 cursor-pointer hover:text-primary-500;
+}
+
+.table thead tr th,
+.table tbody tr td {
+  @apply p-2 text-center border-b;
+}

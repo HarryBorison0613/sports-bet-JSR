@@ -1,0 +1,7 @@
+.base {
+  @apply w-[918px] mx-auto h-auto mt-5 bg-customize-gray;
+}
+
+.text {
+  @apply font-jost font-normal text-black;
+}

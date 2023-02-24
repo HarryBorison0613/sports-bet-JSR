@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "rootDir": "src",
+    "outDir": "dist",
+    "types": ["@cloudflare/workers-types", "./src/cloudflare.d.ts"],
+    "skipLibCheck": true,
+    "lib": ["ESNext"],
+    "moduleResolution": "Node"
+  },
+  "include": ["src", "cloudflare.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,31 @@
+.base {
+  @apply flex flex-col lg:grid lg:grid-cols-12 lg:p-5 gap-5 pointer-events-auto;
+}
+
+.main {
+  @apply flex flex-col-reverse lg:flex-row;
+}
+
+.left,
+.right,
+.content,
+.main {
+  @apply gap-5;
+}
+
+.left,
+.right {
+  @apply flex flex-col;
+}
+
+.left {
+  @apply flex-[0.35] flex flex-col;
+}
+
+.right {
+  @apply col-span-3 flex flex-col;
+}
+
+.content {
+  @apply flex-[0.8] flex flex-col;
+}

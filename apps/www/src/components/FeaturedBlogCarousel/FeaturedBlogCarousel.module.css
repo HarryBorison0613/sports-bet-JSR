@@ -1,0 +1,35 @@
+.base {
+  @apply md:grid grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5;
+
+  @apply h-[400px];
+}
+
+.base-loading {
+  @apply animate-pulse;
+}
+
+.content {
+  @apply h-[400px];
+
+  @apply flex items-end;
+
+  @apply lg:rounded-lg bg-no-repeat select-none bg-center bg-cover;
+
+  @apply relative overflow-hidden !cursor-pointer;
+}
+
+.content-loading {
+  @apply bg-slate-300;
+}
+
+.overlay {
+  @apply absolute lg:rounded-md inset-0 bg-gradient-to-t from-black/80 to-black/10;
+}
+
+.content img {
+  @apply transition-all duration-200 ease-linear;
+}
+
+.content:hover img {
+  @apply scale-110;
+}

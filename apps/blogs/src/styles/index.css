@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "app.css";
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  transition: 300ms all;
+}
+
+div.rounded img {
+  border-radius: 10px;
+}
+
+.container {
+    max-width: 1536px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container-fluid {
+    max-width: 2560px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+
+
+@media (min-width: 1650px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

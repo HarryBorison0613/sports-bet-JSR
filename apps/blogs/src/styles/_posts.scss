@@ -1,0 +1,16 @@
+/** Variables */
+@import "_setup";
+
+.post {
+    p {
+        padding-bottom: 10px;
+    }
+
+    a {
+        text-decoration: underline;
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}

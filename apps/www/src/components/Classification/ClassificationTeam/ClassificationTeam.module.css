@@ -1,0 +1,15 @@
+.base {
+  @apply flex gap-2 items-center flex-1;
+}
+
+.icon {
+  @apply w-8 aspect-square relative;
+}
+
+.icon-small {
+  @apply w-4;
+}
+
+.icon-medium {
+  @apply w-6;
+}

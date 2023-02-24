@@ -1,0 +1,7 @@
+.input {
+  @apply w-full rounded-lg h-[33px] p-2 focus:outline-none focus:ring-2 focus:ring-opacity-50;
+}
+
+.text {
+  @apply font-jost font-normal text-black;
+}

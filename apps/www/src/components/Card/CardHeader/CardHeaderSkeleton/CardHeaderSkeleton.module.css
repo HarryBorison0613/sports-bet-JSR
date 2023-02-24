@@ -1,0 +1,19 @@
+.base {
+  @apply flex gap-4 items-center;
+}
+
+.icon {
+  @apply w-[52px] aspect-square bg-slate-200 rounded-md;
+}
+
+.header {
+  @apply grid gap-2 flex-1;
+}
+
+.title {
+  @apply w-7/12 h-[24px] bg-slate-200 rounded-md;
+}
+
+.description {
+  @apply w-3/12 h-[16px] bg-slate-200 rounded-md;
+}

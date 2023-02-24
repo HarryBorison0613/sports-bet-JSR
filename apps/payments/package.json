@@ -1,0 +1,23 @@
+{
+  "name": "@apps/payments",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@livechat/widget-react": "^1.2.0",
+    "@next/bundle-analyzer": "^12.2.4",
+    "@sendgrid/mail": "^7.7.0",
+    "antd": "^4.22.4",
+    "axios": "^0.27.2",
+    "crypto": "^1.0.1",
+    "react-gtm-module": "^2.0.11",
+    "react-hot-toast": "^2.2.0",
+    "sass": "^1.54.4",
+    "uuid": "^8.3.2"
+  }
+}

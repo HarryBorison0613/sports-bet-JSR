@@ -1,0 +1,357 @@
+/** Variables */
+@import "_setup";
+
+//Hero image
+.hero__absolute-link {
+    opacity: 0;
+    font-size: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+
+}
+
+.hero__post {
+    &:hover {
+        .hero__absolute-link {
+            opacity: 1;
+            background: linear-gradient(to bottom, rgba($primary-color, 0.2) 0%, rgba($secondary-color, 0.5) 100%);
+            
+        }
+    }
+}
+
+.hero__card {
+    img {
+        object-fit: cover;
+    }
+}
+
+
+//Posts list
+.post-preview__image {
+    img {
+        object-fit: cover;
+    }
+}
+
+.home__level-1-title,
+.home__level-2-title {
+    &::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        top: 50%;
+        margin-left: 20px;
+        transform: translateY(-50%);
+        height: 5px;
+        background-color: $gray-150;
+    }
+}
+
+.home__level-2-title {
+    &::after {
+        height: 2px;
+    }
+}
+
+
+.hero__post:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+    z-index: 0;
+}
+
+//Blog posts card 
+.post-preview-002,
+.post-preview-001 {
+    &::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        bottom: -20px;
+        margin-left: 0px;
+        height: 2px;
+        background-color: $gray-150; 
+    }
+}
+
+.post-preview-001  {
+    .post-preview__image {
+        img {
+            object-position: center 20%;
+        }
+    }
+}
+
+//Categoreies matrix
+.categories-matrix__item {
+    transition: 300ms all;
+    img {
+        object-fit: cover;
+    }
+
+    &:before {
+        position: absolute;
+        content: "";
+        background: linear-gradient(to bottom, rgba($body-font-color, 0.2) 0%, rgba($body-font-color, 0.5) 100%);
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        z-index: 5;
+        transition: 300ms all;
+    }
+
+    &:hover {
+        transition: 300ms all;
+        &:before {
+            background: linear-gradient(to bottom, rgba($body-font-color, 0.4) 0%, rgba($body-font-color, 0.7) 100%);
+        }
+    }
+}
+
+.banner-landscape__wrap {
+    img {
+        object-fit: contain;
+    }
+}
+
+//Button 
+.button__arrow {
+    img {
+        transform: rotate(-90deg);
+    }
+}
+
+//Footer
+.footer__menu {
+    display: none;
+    &.active {
+        display: block;
+    }
+}
+
+.footer-menu__arrow-wrap {
+    &.active {
+        img {
+            margin-top: 2px !important;
+            transform: rotate(-180deg);
+        }
+    }
+
+    img {
+        margin-top: 5px !important;
+    }
+}
+
+//Tag page
+.hero-tag__title {
+    &::before {
+        position: absolute;
+        content: '';
+        width: 200px;
+        height: 5px;
+        background: white;
+        left: -250px;
+        top: 50%;
+    }
+
+    &::after {
+        position: absolute;
+        content: '';
+        width: 200px;
+        height: 5px;
+        background: white;
+        right: -250px;
+        top: 50%;
+    }
+}
+
+.hero-tag {
+    img {
+        object-fit: cover;
+    }
+}
+
+/** Single post header */
+.post-header__image {
+    img {
+        object-fit: cover;
+    }
+}
+
+.bg-body {
+    .home__level-1-title,
+    .post-preview-001,
+    .post-preview-002 {
+          
+            color: white;
+
+            a {
+                color: white;
+
+                &:hover {
+                    text-decoration: underline;
+                    color: white;
+                }
+
+                &.bg-quartenary {
+                    color: $body-font-color;
+                }
+            }
+
+            .post-preview-002__category {
+                a {
+                    color: white;
+
+                    &:hover {
+                        text-decoration: underline;
+                        color: white;
+                    }
+                }
+            }
+
+           
+    }
+
+    .post-preview-003 {
+        background: white;
+    }
+}
+
+.post {
+    article {
+        figure {
+            margin-top: 20px;
+            > div {
+                height: 200px;
+                position: relative;
+
+                img {
+                    object-fit: contain;
+                }
+            }
+            
+            figcaption {
+                text-align: center;
+                font-style: italic;
+                font-size: 14px;
+                max-width: 70%;
+                margin: 0px auto;
+                margin-bottom: 20px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+/** Search */
+.search__modal {
+        position: absolute;
+        content: '';
+        left: 0px;
+        right: 0px;
+        top: -20000px;
+        z-index: -999;
+        opacity: 0;
+    &.active {
+        position: fixed;
+        overflow: scroll;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        top: 0px;
+        background-color: rgba(black, 0.9);
+        z-index: 999;
+        opacity: 1;
+
+    }
+}
+
+/** Loader */
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    margin-left: 5px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+@media (min-width: 768px) {
+    .home__level-1-title {
+        &::after {
+            height: 7px;
+        }
+    }
+    .home__level-2-title {
+        &::after {
+            height: 3px;
+        }
+    }
+
+    .post-preview-002,
+    .post-preview-001 {
+        &::after {
+            bottom: -35px;
+        }
+    }
+
+    .footer__menu {
+        display: block;
+    }
+
+    .footer-menu__arrow-wrap {
+        display: none;
+    }
+
+    .post {
+        article {
+            figure {
+                > div {
+                    height: 300px;
+    
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .post {
+        article {
+            figure {
+                > div {
+                    height: 400px;
+    
+                }
+            }
+        }
+    }
+}
