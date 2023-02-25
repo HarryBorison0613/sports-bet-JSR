@@ -1,0 +1,10 @@
+-Registration:
+https://bets.com.br/conta/cadastro
+I have developed this page using Next.js.
+I used twilio api, mollybet api, grid mail in this page.
+And also, I used React-phone-input module in this page.
+-MyAccount Page:
+https://bets.com.br/conta
+I have developed this page using Next.js.
+I used twilio API, mollybet api.
+I have built login page, recover password page, myaccount page.
